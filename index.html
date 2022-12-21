@@ -9,7 +9,8 @@
       name="description"
       content="Harisenin.com adalah Platform Belajar Online yang menawarkan education-to-employment program untuk profesi yang paling banyak dibutuhkan saat ini"
     />
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
+    <link rel="stylesheet" href="./style/desktop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,8 +28,9 @@
               alt="harisenin.com logo"
               class="h-3.5"
           /></a>
-          <div class="flex absolute right-[15px] hamburger">
-            <button>
+          <div class="hamburger">
+            <input type="checkbox" id="toggler" />
+            <label for="toggler">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -43,7 +45,95 @@
                   d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
                 ></path>
               </svg>
-            </button>
+            </label>
+            <nav class="nav-mobile__menu">
+              <ul>
+                <li>
+                  <button class="sign-up" style="width: 100%">Daftar</button>
+                  <button class="log-in" style="width: 100%">Masuk</button>
+                </li>
+                <li class="list-menu-mobile">
+                  <p>Bootcamp</p>
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    class="font-md font-semibold"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </li>
+                <li class="list-menu-mobile">
+                  <p>ProClass</p>
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    class="font-md font-semibold"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </li>
+                <li class="list-menu-mobile">
+                  <p>Video Course</p>
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    class="font-md font-semibold"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </li>
+                <li class="list-menu-mobile">
+                  <p>Event & Workshop</p>
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    class="font-md font-semibold"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
         <nav>
